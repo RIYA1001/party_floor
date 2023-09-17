@@ -1,0 +1,91 @@
+body {
+    padding:0;
+    margin:0;
+    background-color: black;
+    display: inline-block ;
+    height:670px;
+    width: 200px;
+}
+
+.container{
+    width: 380px;
+    margin : 35px 5px;
+}
+
+.row{
+    width: 50px;
+    height: 50px;
+    display: inline-block ;
+    }
+
+#row1{
+    animation-name: example1;
+    animation-duration: 0.5s;
+    animation-iteration-count: 30;
+    
+}
+#row2{
+    animation-name: example2;
+    animation-duration: 0.5s;
+    animation-iteration-count: 30;
+    
+}
+#row3{
+    animation-name: example3;
+    animation-duration: 0.5s;
+    animation-iteration-count: 30;
+    
+}
+#row4{
+    animation-name: example4;
+    animation-duration: 0.5s;
+    animation-iteration-count: 30;
+    
+}
+#row5{
+    animation-name: example5;
+    animation-duration: 0.5s;
+    animation-iteration-count: 30;
+    
+}
+
+
+@keyframes example1 {
+  0%   {background-color: #900C3F;}
+  25%  {background-color: #C70039;}
+  50%  {background-color: #FF5733;}
+  75%  {background-color: #FFC300;}
+  100% {background-color: #DAF7A6;}
+}
+
+@keyframes example2 {
+  0%  {background-color: #DAF7A6;}
+  25%  {background-color: #900C3F;}
+  50%  {background-color: #C70039;}
+  75% {background-color: #FF5733;}
+  100%   {background-color: #FFC300;}
+}
+
+@keyframes example3 {
+  0%  {background-color: #FFC300;}
+  25%  {background-color: #DAF7A6;}
+  50% {background-color: #900C3F;}
+  74%   {background-color: #C70039;}
+  100%  {background-color: #FF5733;}
+}
+
+@keyframes example4 {
+  0%  {background-color: #FF5733;}
+  25% {background-color: #FFC300;}
+  50%   {background-color: #DAF7A6;}
+  75%  {background-color: #900C3F;}
+  100%  {background-color: #C70039;}
+}
+
+@keyframes example5 {
+  0% {background-color: #C70039;}
+  25%   {background-color: #FF5733;}
+  50%  {background-color: #FFC300;}
+  75%  {background-color: #DAF7A6;}
+  100%  {background-color: #900C3F;}
+}
